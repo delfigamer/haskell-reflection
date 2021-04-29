@@ -1,0 +1,60 @@
+C:\\dev\hs\refl\src\Equality.hs:109:1-6: Splicing declarations
+    [d| |] ======>
+C:\\dev\hs\refl\src\Equality.hs:114:20-40: Splicing expression
+    heqTemplate ''Request
+  ======>
+    \ x_abDl y_abDm
+      -> case x_abDl of
+           Get a_abDn
+             -> case y_abDm of
+                  Get b_abDo | (a_abDn == b_abDo) -> Just Refl
+                  _ -> Nothing
+           Set a_abDp a_abDq
+             -> case y_abDm of
+                  Set b_abDr b_abDs
+                    | ((a_abDp == b_abDr) && (a_abDq == b_abDs)) -> Just Refl
+                  _ -> Nothing
+           Next a_abDt
+             -> case y_abDm of
+                  Next b_abDu | (a_abDt == b_abDu) -> Just Refl
+                  _ -> Nothing
+C:\\dev\hs\refl\src\Equality.hs:109:1-6: Splicing declarations
+    [d| |] ======>
+C:\\dev\hs\refl\src\Equality.hs:114:20-40: Splicing expression
+    heqTemplate ''Request
+  ======>
+    \ x_acdf y_acdg
+      -> case x_acdf of
+           Get a_acdh
+             -> case y_acdg of
+                  Get b_acdi | (a_acdh == b_acdi) -> Just Refl
+                  _ -> Nothing
+           Set a_acdj a_acdk
+             -> case y_acdg of
+                  Set b_acdl b_acdm
+                    | ((a_acdj == b_acdl) && (a_acdk == b_acdm)) -> Just Refl
+                  _ -> Nothing
+           Next a_acdn
+             -> case y_acdg of
+                  Next b_acdo | (a_acdn == b_acdo) -> Just Refl
+                  _ -> Nothing
+C:\\dev\hs\refl\src\Equality.hs:109:1-6: Splicing declarations
+    [d| |] ======>
+C:\\dev\hs\refl\src\Equality.hs:114:20-40: Splicing expression
+    heqTemplate ''Request
+  ======>
+    \ x_acQ0 y_acQ1
+      -> case x_acQ0 of
+           Get a_acQ2
+             -> case y_acQ1 of
+                  Get b_acQ3 | (a_acQ2 == b_acQ3) -> Just Refl
+                  _ -> Nothing
+           Set a_acQ4 a_acQ5
+             -> case y_acQ1 of
+                  Set b_acQ6 b_acQ7
+                    | ((a_acQ4 == b_acQ6) && (a_acQ5 == b_acQ7)) -> Just Refl
+                  _ -> Nothing
+           Next a_acQ8
+             -> case y_acQ1 of
+                  Next b_acQ9 | (a_acQ8 == b_acQ9) -> Just Refl
+                  _ -> Nothing
